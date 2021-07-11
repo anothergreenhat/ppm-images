@@ -5,6 +5,7 @@ netpbm's `pnmtopng` command can be used to convert the .ppm file to a .png. It c
 
 ## Usage
 `./main <1,2,3> <colors array filename (optional)> <output filename (optional)>`
+
 Option 1 will create an image with the specifications defined by the colors array filename you input. See below for details.
 
 Option 2 will create an image with three intersecting circles.

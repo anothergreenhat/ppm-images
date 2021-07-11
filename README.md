@@ -1,7 +1,9 @@
 # ppm-images
 Generates a ppm image specified by command line arguments from a choice of three different variations.
 
-netpbm's `pnmtopng` command can be used to convert the .ppm file to a .png. It can be installed with `sudo apt install netpbm`
+netpbm's `pnmtopng` command can be used to convert the .ppm file to a .png. 
+
+It can be installed with `sudo apt install netpbm`
 
 ## Usage
 `./main <1,2,3> <colors array filename (optional)> <output filename (optional)>`

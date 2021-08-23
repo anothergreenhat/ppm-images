@@ -38,6 +38,6 @@ Include the optional filename argument to route the output image to that file; o
 The colors array filename referred to above looks for a simple text file in the same folder as the executable that has the number or rows and columns of blocks of solid color being produced, and follows with triplets of RGB color values. 
 
 
-The first line has a single value which is the number of rows, the second line has a single value and is the number of columns, and the remaining values must be numbers in the range `[0..25]`, and there must be exactly `rows*columns` values remaining in the file. `rows*columns` must be a number divisible by 3. 
+The first line has a single value which is the number of rows, the second line has a single value and is the number of columns, and the remaining values must be numbers in the range `[0..255]`, and there must be exactly `rows*columns` values remaining in the file. `rows*columns` must be a number divisible by 3. 
 ## Note
 Building this program with `$ gcc -Wall` will reveal a warning when attempting to `fscanf()` into the `clrs[]` array due to an implicit conversion from `&i (int)` when storing that value in the `unsigned char array clrs[]`. This is expected.

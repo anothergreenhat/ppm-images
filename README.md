@@ -1,4 +1,6 @@
 # ppm-images
+
+Credit to R. Perry, Villanova University 2021
 Generates a ppm image specified by command line arguments from a choice of three different variations.
 
 netpbm's `pnmtopng` command can be used to convert the .ppm file to a .png. 
